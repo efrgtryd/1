@@ -1,0 +1,10 @@
+int fseek(FILE *stream, long offset, int whence);
+成功返回0 失败返回非0值
+
+3： SEEK_SET 文件开始
+SEEK_CUR当前位置
+SEEK_END文件末尾
+
+long ftell(FILE *stream); 偏移量（当前位置）
+
+rewind （） 重置指针位置
